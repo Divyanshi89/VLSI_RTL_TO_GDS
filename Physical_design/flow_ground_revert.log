@@ -1,0 +1,974 @@
+[INFO ODB-0227] LEF file: Nangate45/Nangate45_tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: Nangate45/Nangate45_stdcell.lef, created 135 library cells
+[WARNING IFP-0028] Core area lower left (15.000, 20.000) snapped to (15.010, 21.000).
+[INFO IFP-0001] Added 227 rows of 1657 site FreePDK45_38x28_10R_NP_162NW_34O.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 360.000 380.000 ) um
+[INFO IFP-0101] Core BBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO IFP-0102] Core area:                       100052.974 um^2
+[INFO IFP-0103] Total instances area:             11734.856 um^2
+[INFO IFP-0104] Effective utilization:                0.117
+[INFO IFP-0105] Number of instances:                   9333
+[INFO RSZ-0026] Removed 0 buffers.
+Found 0 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0001] Number of available slots 4582
+[INFO PPL-0002] Number of I/O             130
+[INFO PPL-0003] Number of I/O w/sink      130
+[INFO PPL-0004] Number of I/O w/o sink    0
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 24583.00 um.
+[INFO TAP-0004] Inserted 454 endcaps.
+[INFO TAP-0005] Inserted 229 tapcells.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING PDN-1051] No instances found for grid (CORE_macro_grid_1).
+[WARNING PDN-1051] No instances found for grid (CORE_macro_grid_2).
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0500] Runtime: 0.07s
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO GPL-0016] Core area:                  100052.974 um^2
+[INFO GPL-0036] Movable instances area:      21665.168 um^2
+[INFO GPL-0037] Total instances area:        21846.846 um^2
+[INFO GPL-0035] Pin density area adjust:       262.109 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:             10016
+[INFO GPL-0007] Movable instances:                9333
+[INFO GPL-0008] Fixed instances:                   683
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                   9398
+[INFO GPL-0011] Number of pins:                  28129
+[INFO GPL-0012] Die BBox:       (  0.000  0.000 ) ( 360.000 380.000 ) um
+[INFO GPL-0013] Placement BBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                100052.974 um^2
+[INFO GPL-0017] Fixed instances area:          181.678 um^2
+[INFO GPL-0018] Movable instances area:      21927.277 um^2
+[INFO GPL-0019] Utilization:                    21.956 %
+[INFO GPL-0020] Standard cells area:         21927.277 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 9333	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.73312241 HPWL: 187721700
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00023444 HPWL: 57149762
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00023444 HPWL: 56996130
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00023444 HPWL: 56899541
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00023444 HPWL: 56816325
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00023444 HPWL: 56786652
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00023444 HPWL: 56757119
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00023444 HPWL: 56752889
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00023444 HPWL: 56737022
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00023444 HPWL: 56734480
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00023444 HPWL: 56728600
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00023444 HPWL: 56734373
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00023444 HPWL: 56728821
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00023444 HPWL: 56735348
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00023444 HPWL: 56730719
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00023444 HPWL: 56736081
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00023444 HPWL: 56730745
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00023444 HPWL: 56736516
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00023444 HPWL: 56731038
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00023444 HPWL: 56736630
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:      2.349 um^2
+[INFO GPL-0025] Ideal bin area:                  7.831 um^2
+[INFO GPL-0026] Ideal bin count:                 12775
+[INFO GPL-0027] Total bin area:             100052.974 um^2
+[INFO GPL-0028] Bin count (X, Y):          64 ,     64
+[INFO GPL-0029] Bin size (W * H):       4.919 *  4.966 um
+[INFO GPL-0030] Number of bins:                   4096
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9977 |  1.089007e+04 |   +0.00% |  1.05e-16 |      
+       10 |   0.9963 |  9.919651e+03 |   -8.91% |  1.71e-16 |      
+       20 |   0.9961 |  9.862802e+03 |   -0.57% |  2.79e-16 |      
+       30 |   0.9961 |  9.914243e+03 |   +0.52% |  4.55e-16 |      
+       40 |   0.9961 |  9.942058e+03 |   +0.28% |  7.41e-16 |      
+       50 |   0.9961 |  9.939594e+03 |   -0.02% |  1.21e-15 |      
+       60 |   0.9961 |  9.921714e+03 |   -0.18% |  1.97e-15 |      
+       70 |   0.9961 |  9.906872e+03 |   -0.15% |  3.20e-15 |      
+       80 |   0.9961 |  9.897165e+03 |   -0.10% |  5.22e-15 |      
+       90 |   0.9961 |  9.883392e+03 |   -0.14% |  8.50e-15 |      
+      100 |   0.9961 |  9.860844e+03 |   -0.23% |  1.38e-14 |      
+      110 |   0.9961 |  9.825364e+03 |   -0.36% |  2.25e-14 |      
+      120 |   0.9961 |  9.777085e+03 |   -0.49% |  3.67e-14 |      
+      130 |   0.9961 |  9.723943e+03 |   -0.54% |  5.98e-14 |      
+      140 |   0.9961 |  9.750860e+03 |   +0.28% |  9.74e-14 |      
+      150 |   0.9958 |  1.000776e+04 |   +2.63% |  1.59e-13 |      
+      160 |   0.9949 |  1.072678e+04 |   +7.18% |  2.58e-13 |      
+      170 |   0.9936 |  1.236198e+04 |  +15.24% |  4.21e-13 |      
+      180 |   0.9906 |  1.576066e+04 |  +27.49% |  6.85e-13 |      
+      190 |   0.9843 |  2.083333e+04 |  +32.19% |  1.11e-12 |      
+      200 |   0.9743 |  2.643264e+04 |  +26.88% |  1.81e-12 |      
+      210 |   0.9618 |  3.202917e+04 |  +21.17% |  2.95e-12 |      
+      220 |   0.9440 |  3.777287e+04 |  +17.93% |  4.80e-12 |      
+      230 |   0.9227 |  4.431022e+04 |  +17.31% |  7.81e-12 |      
+      240 |   0.8953 |  5.191297e+04 |  +17.16% |  1.27e-11 |      
+      250 |   0.8595 |  5.986513e+04 |  +15.32% |  2.06e-11 |      
+      260 |   0.8173 |  6.635851e+04 |  +10.85% |  3.36e-11 |      
+      270 |   0.7769 |  7.131130e+04 |   +7.46% |  5.46e-11 |      
+      280 |   0.7386 |  7.689937e+04 |   +7.84% |  8.89e-11 |      
+      290 |   0.6901 |  8.202165e+04 |   +6.66% |  1.45e-10 |      
+      300 |   0.6361 |  8.190901e+04 |   -0.14% |  2.36e-10 |      
+[INFO GPL-0038] Routability snapshot saved at iter = 308
+      307 |   0.5990 |  8.205020e+04 |          |           |      
+      310 |   0.5805 |  8.289390e+04 |   +1.20% |  3.84e-10 |      
+      320 |   0.5230 |  8.653298e+04 |   +4.39% |  6.24e-10 |      
+      330 |   0.4701 |  8.938948e+04 |   +3.30% |  1.02e-09 |      
+      340 |   0.4356 |  9.213169e+04 |   +3.07% |  1.65e-09 |      
+      350 |   0.4049 |  8.876408e+04 |   -3.66% |  2.69e-09 |      
+      360 |   0.3848 |  8.855542e+04 |   -0.24% |  4.39e-09 |      
+      370 |   0.3377 |  8.761369e+04 |   -1.06% |  7.08e-09 |      
+      380 |   0.3139 |  8.829377e+04 |   +0.78% |  1.04e-08 |      
+[INFO GPL-0040] Routability iteration: 1
+[WARNING GRT-0281] Net ground has a large fanout of 1301 terminals.
+[INFO GPL-0088] Tiles the placer can act on: 4196 of 16758 (25.04%)
+[INFO GPL-0041] Total routing overflow: 0.0000
+[INFO GPL-0042] Number of overflowed tiles: 0 (0.00%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 0.4547
+[INFO GPL-0044] Average top 1.0% routing congestion: 0.4191
+[INFO GPL-0045] Average top 2.0% routing congestion: 0.3833
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.3372
+[INFO GPL-0047] Routability iteration weighted routing congestion: 0.4369
+[INFO GPL-0050] Weighted routing congestion is lower than target routing congestion(1.0100), end routability optimization.
+[INFO GPL-0090] Routability finished. Target routing congestion achieved succesfully.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      390 |   0.2899 |  8.646612e+04 |   -2.07% |  1.54e-08 |      
+      400 |   0.2601 |  8.528675e+04 |   -1.36% |  2.26e-08 |      
+      410 |   0.2355 |  8.555395e+04 |   +0.31% |  3.33e-08 |      
+      420 |   0.2119 |  8.471955e+04 |   -0.98% |  4.91e-08 |      
+      430 |   0.1881 |  8.442658e+04 |   -0.35% |  7.23e-08 |      
+      440 |   0.1646 |  8.412958e+04 |   -0.35% |  1.07e-07 |      
+      450 |   0.1453 |  8.402717e+04 |   -0.12% |  1.57e-07 |      
+      460 |   0.1256 |  8.390837e+04 |   -0.14% |  2.31e-07 |      
+      470 |   0.1086 |  8.387963e+04 |   -0.03% |  3.40e-07 |      
+      476 |   0.0987 |  8.388637e+04 |          |  4.47e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 476
+[INFO GPL-1017] Routability mode iteration count: 79
+[INFO GPL-1005] Routability final weighted congestion: 0.3219
+[INFO GPL-1002] Placed Cell Area            21927.2774
+[INFO GPL-1003] Available Free Area         99871.2960
+[INFO GPL-1004] Minimum Feasible Density        0.2200 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.2440
+[INFO GPL-1008]     - For 80% usage of free space: 0.2744
+[INFO GPL-1009]     - For 50% usage of free space: 0.4391
+[INFO GPL-1011] Original area (um^2): 21927.28
+[INFO GPL-1012] Total routability artificial inflation: 0.00 (+0.00%)
+[INFO GPL-1014] Final placement area: 21927.28 (+0.00%)
+[INFO GPL-1018] Final HPWL (um): 84092.09
+Found 0 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0001] Number of available slots 4582
+[INFO PPL-0002] Number of I/O             130
+[INFO PPL-0003] Number of I/O w/sink      130
+[INFO PPL-0004] Number of I/O w/o sink    0
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 32292.70 um.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |      9398
+    final |     +0.7% |       0 |      62 |             1 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 1 slew violations.
+[INFO RSZ-0035] Found 1 fanout violations.
+[INFO RSZ-0038] Inserted 62 buffers in 1 nets.
+[INFO RSZ-0504] Runtime: 1.43s
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11819.44 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 12.0%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10078 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |       1040 |       730 |       310
+        1 |          2 |         2 |         0
+        2 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 2.
+[INFO DPL-0500] Runtime: 0.30s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                9829
+total displacement      11491.4 u
+average displacement        1.1 u
+max displacement            4.8 u
+original HPWL           87258.7 u
+legalized HPWL          92013.4 u
+delta HPWL                    5 %
+
+worst slack min 3.039
+worst slack max -0.318
+tns max -0.771
+[INFO CTS-0050] Root buffer is BUF_X4.
+[INFO CTS-0051] Sink buffer is BUF_X4.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    BUF_X4
+[INFO CTS-0049] Characterization buffer is BUF_X4.
+[WARNING CTS-0083] No clock nets have been found.
+[INFO CTS-0008] TritonCTS found 0 clock nets.
+[WARNING CTS-0082] No valid clock nets in the design.
+[INFO CTS-0500] Runtime: 0.13s
+[INFO RSZ-0058] Using max wire length 693um.
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11819.44 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 12.0%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10078 cells
+[INFO DPL-0500] Runtime: 0.09s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                   0
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           92013.4 u
+legalized HPWL          92013.4 u
+delta HPWL                    0 %
+
+[WARNING STA-0450] virtual clock clk can not be propagated.
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove SplitLoadMove 
+[INFO RSZ-0094] Found 4 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 4 out of 4 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |    TNS     |  Viol  |  Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            | Endpts | Endpoint
+------------------------------------------------------------------------------------------------------------------------------
+       0* |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.329 |       -0.8 |      4 | Prod[63]
+     189* |       0 |     130 |       27 |      0 |    28 |    +0.6% |    0.005 |        0.0 |      4 | Prod[63]
+    final |       0 |     130 |       27 |      0 |    28 |    +0.6% |    0.005 |        0.0 |      0 | Prod[63]
+------------------------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 27 buffers.
+[INFO RSZ-0051] Resized 130 instances: 130 up, 0 up match, 0 down, 0 VT
+[INFO RSZ-0043] Swapped pins on 28 instances.
+[INFO RSZ-0505] Runtime: 5.84s
+[INFO RSZ-0033] No hold violations found.
+[INFO RSZ-0506] Runtime: 0.00s
+worst slack min 3.039
+worst slack max 0.005
+tns max 0.000
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11896.85 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 12.1%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10105 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |         15 |        15 |         0
+        1 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 1.
+[INFO DPL-0500] Runtime: 0.11s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                 588
+total displacement         49.4 u
+average displacement        0.0 u
+max displacement            3.6 u
+original HPWL           92023.5 u
+legalized HPWL          92056.9 u
+delta HPWL                    0 %
+
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     135
+Number of vias:       33
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+
+Design:                   vedic32x32
+Die area:                 ( 0 0 ) ( 720000 760000 )
+Number of track patterns: 20
+Number of DEF vias:       0
+Number of components:     10105
+Number of terminals:      130
+Number of snets:          2
+Number of nets:           9487
+
+[INFO DRT-0167] List of default vias:
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 23.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 157722.
+[INFO DRT-0033] via1 shape region query size = 4104.
+[INFO DRT-0033] metal2 shape region query size = 2765.
+[INFO DRT-0033] via2 shape region query size = 4104.
+[INFO DRT-0033] metal3 shape region query size = 2837.
+[INFO DRT-0033] via3 shape region query size = 4104.
+[INFO DRT-0033] metal4 shape region query size = 1476.
+[INFO DRT-0033] via4 shape region query size = 960.
+[INFO DRT-0033] metal5 shape region query size = 192.
+[INFO DRT-0033] via5 shape region query size = 960.
+[INFO DRT-0033] metal6 shape region query size = 192.
+[INFO DRT-0033] via6 shape region query size = 384.
+[INFO DRT-0033] metal7 shape region query size = 112.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 99 pins.
+[INFO DRT-0081]   Complete 23 unique inst patterns.
+[INFO DRT-0084]   Complete 9422 groups.
+#scanned instances     = 10105
+#unique  instances     = 23
+#stdCellGenAp          = 440
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 330
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 28177
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:03, elapsed time = 00:00:00, memory = 393.54 (MB), peak = 402.05 (MB)
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal10
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.8000  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.6000  line-2-Via Pitch: 1.6000
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 0
+[INFO GRT-0019] Found 0 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 33
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical       246108        115476          53.08%
+metal3     Horizontal     337810        165713          50.94%
+metal4     Vertical       166840         81968          50.87%
+metal5     Horizontal     169097         82968          50.93%
+metal6     Vertical       169526         83306          50.86%
+metal7     Horizontal      55071         24408          55.68%
+metal8     Vertical        59268         26004          56.12%
+metal9     Horizontal      29625         16625          43.88%
+metal10    Vertical        29568         16632          43.75%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 46606
+[INFO GRT-0198] Via related Steiner nodes: 561
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 56489
+[INFO GRT-0112] Final usage 3D: 210057
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Congestion
+---------------------------------------------------------------------------------------
+metal1               0             0            0.00%             0 /  0 /  0
+metal2          115476         18319           15.86%             0 /  0 /  0
+metal3          165713         21278           12.84%             0 /  0 /  0
+metal4           81968           968            1.18%             0 /  0 /  0
+metal5           82968            25            0.03%             0 /  0 /  0
+metal6           83306             0            0.00%             0 /  0 /  0
+metal7           24408             0            0.00%             0 /  0 /  0
+metal8           26004             0            0.00%             0 /  0 /  0
+metal9           16625             0            0.00%             0 /  0 /  0
+metal10          16632             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           613100         40590            6.62%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 168948 um
+[INFO GRT-0014] Routed nets: 9403
+[INFO GRT-0303] Global routing runtime = 00:00:00
+[WARNING GRT-0246] No diode with LEF class CORE ANTENNACELL found.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     135
+Number of vias:       33
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+
+Design:                   vedic32x32
+Die area:                 ( 0 0 ) ( 720000 760000 )
+Number of track patterns: 20
+Number of DEF vias:       0
+Number of components:     10105
+Number of terminals:      130
+Number of snets:          2
+Number of nets:           9487
+
+[INFO DRT-0167] List of default vias:
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 23.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 157722.
+[INFO DRT-0033] via1 shape region query size = 4104.
+[INFO DRT-0033] metal2 shape region query size = 2765.
+[INFO DRT-0033] via2 shape region query size = 4104.
+[INFO DRT-0033] metal3 shape region query size = 2837.
+[INFO DRT-0033] via3 shape region query size = 4104.
+[INFO DRT-0033] metal4 shape region query size = 1476.
+[INFO DRT-0033] via4 shape region query size = 960.
+[INFO DRT-0033] metal5 shape region query size = 192.
+[INFO DRT-0033] via5 shape region query size = 960.
+[INFO DRT-0033] metal6 shape region query size = 192.
+[INFO DRT-0033] via6 shape region query size = 384.
+[INFO DRT-0033] metal7 shape region query size = 112.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 0.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0078]   Complete 99 pins.
+[INFO DRT-0081]   Complete 23 unique inst patterns.
+[INFO DRT-0084]   Complete 9422 groups.
+#scanned instances     = 10105
+#unique  instances     = 23
+#stdCellGenAp          = 440
+#stdCellValidPlanarAp  = 0
+#stdCellValidViaAp     = 330
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 28177
+#instTermValidViaApCnt = 0
+#macroGenAp            = 0
+#macroValidPlanarAp    = 0
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:00:03, elapsed time = 00:00:00, memory = 441.97 (MB), peak = 479.13 (MB)
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0036] active guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] metal1 guide region query size = 22416.
+[INFO DRT-0036] via1 guide region query size = 0.
+[INFO DRT-0036] metal2 guide region query size = 18656.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] metal3 guide region query size = 8819.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] metal4 guide region query size = 82.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] metal5 guide region query size = 3.
+[INFO DRT-0036] via5 guide region query size = 0.
+[INFO DRT-0036] metal6 guide region query size = 0.
+[INFO DRT-0036] via6 guide region query size = 0.
+[INFO DRT-0036] metal7 guide region query size = 0.
+[INFO DRT-0036] via7 guide region query size = 0.
+[INFO DRT-0036] metal8 guide region query size = 0.
+[INFO DRT-0036] via8 guide region query size = 0.
+[INFO DRT-0036] metal9 guide region query size = 0.
+[INFO DRT-0036] via9 guide region query size = 0.
+[INFO DRT-0036] metal10 guide region query size = 0.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0501] Runtime: 25.07s
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+[INFO DPL-0001] Placed 26622 filler instances.
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[WARNING RCX-0514] The ext_model_file option is deprecated. Use set_extraction_rules_file command instead.
+[INFO RCX-0435] Reading extraction model file Nangate45/Nangate45.rcx_rules ...
+[INFO RCX-0436] RC segment generation vedic32x32 (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 31142 rc segments
+[INFO RCX-0439] Coupling Cap extraction vedic32x32 ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 16% of 43277 wires extracted
+[INFO RCX-0442] 48% of 43277 wires extracted
+[INFO RCX-0442] 60% of 43277 wires extracted
+[INFO RCX-0442] 100% of 43277 wires extracted
+[INFO RCX-0045] Extract 9487 nets, 40545 rsegs, 40545 caps, 53996 ccs
+[INFO RCX-0443] 9487 nets finished
+Startpoint: A[0] (input port clocked by clk)
+Endpoint: Prod[0] (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+            0.000    0.000    0.000   clock clk (rise edge)
+                     0.000    0.000   clock network delay (ideal)
+                     2.000    2.000 v input external delay
+  81.807    0.000    0.000    2.000 v A[0] (in)
+            0.013    0.011    2.011 v V1/V1/V1/V1/_0_/A1 (AND2_X1)
+   4.239    0.008    0.035    2.046 v V1/V1/V1/V1/_0_/ZN (AND2_X1)
+            0.008    0.001    2.046 v Prod[0] (out)
+                              2.046   data arrival time
+
+            0.000    0.000    0.000   clock clk (rise edge)
+                     0.000    0.000   clock network delay (ideal)
+                     0.000    0.000   clock reconvergence pessimism
+                    -1.000   -1.000   output external delay
+                             -1.000   data required time
+---------------------------------------------------------------------------
+                             -1.000   data required time
+                             -2.046   data arrival time
+---------------------------------------------------------------------------
+                              3.046   slack (MET)
+
+
+Startpoint: B[2] (input port clocked by clk)
+Endpoint: Prod[63] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+     Cap     Slew    Delay     Time   Description
+---------------------------------------------------------------------------
+            0.000    0.000    0.000   clock clk (rise edge)
+                     0.000    0.000   clock network delay (ideal)
+                     3.000    3.000 v input external delay
+ 101.258    0.000    0.000    3.000 v B[2] (in)
+            0.042    0.035    3.035 v V1/V1/V1/V3/_0_/A1 (AND2_X4)
+   3.648    0.006    0.040    3.074 v V1/V1/V1/V3/_0_/ZN (AND2_X4)
+            0.006    0.000    3.074 v V1/V1/V1/A1/M1/M1/_1_/B (XOR2_X1)
+   3.753    0.013    0.058    3.132 v V1/V1/V1/A1/M1/M1/_1_/Z (XOR2_X1)
+            0.013    0.000    3.132 v V1/V1/V1/A1/M1/M2/_1_/A (XOR2_X1)
+   4.142    0.015    0.056    3.189 v V1/V1/V1/A1/M1/M2/_1_/Z (XOR2_X1)
+            0.015    0.000    3.189 v V1/V1/V1/A2/M1/M1/_1_/B (XOR2_X1)
+   1.937    0.012    0.058    3.247 v V1/V1/V1/A2/M1/M1/_1_/Z (XOR2_X1)
+            0.012    0.000    3.247 v V1/V1/V1/A2/M1/M2/_0_/A1 (AND2_X1)
+   1.036    0.006    0.029    3.275 v V1/V1/V1/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    3.275 v V1/V1/V1/A2/M1/_0_/A2 (OR2_X1)
+   3.607    0.011    0.053    3.328 v V1/V1/V1/A2/M1/_0_/ZN (OR2_X1)
+            0.011    0.000    3.328 v V1/V1/V1/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.785    0.006    0.032    3.360 v V1/V1/V1/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    3.360 v V1/V1/V1/A2/M2/_0_/A2 (OR2_X2)
+   3.891    0.009    0.047    3.407 v V1/V1/V1/A2/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    3.407 v V1/V1/V1/A2/M3/M2/_1_/B (XOR2_X1)
+   3.588    0.014    0.059    3.465 v V1/V1/V1/A2/M3/M2/_1_/Z (XOR2_X1)
+            0.014    0.000    3.466 v V1/V1/V1/A3/M1/M1/_1_/A (XOR2_X1)
+   3.365    0.014    0.055    3.521 v V1/V1/V1/A3/M1/M1/_1_/Z (XOR2_X1)
+            0.014    0.000    3.521 v V1/V1/V1/A3/M1/M2/_0_/A1 (AND2_X1)
+   1.803    0.006    0.031    3.552 v V1/V1/V1/A3/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    3.552 v V1/V1/V1/A3/M1/_0_/A2 (OR2_X2)
+   4.017    0.009    0.047    3.599 v V1/V1/V1/A3/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    3.599 v V1/V1/V1/A3/M2/M2/_1_/B (XOR2_X1)
+   3.673    0.014    0.059    3.658 v V1/V1/V1/A3/M2/M2/_1_/Z (XOR2_X1)
+            0.014    0.000    3.658 v V1/V1/A2/A1/M2/M1/_1_/A (XOR2_X1)
+   3.467    0.014    0.055    3.713 v V1/V1/A2/A1/M2/M1/_1_/Z (XOR2_X1)
+            0.014    0.000    3.713 v V1/V1/A2/A1/M2/M2/_0_/A1 (AND2_X1)
+   1.128    0.005    0.030    3.743 v V1/V1/A2/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    3.743 v V1/V1/A2/A1/M2/_0_/A2 (OR2_X1)
+   3.743    0.011    0.053    3.796 v V1/V1/A2/A1/M2/_0_/ZN (OR2_X1)
+            0.011    0.000    3.796 v V1/V1/A2/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.900    0.006    0.032    3.829 v V1/V1/A2/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    3.829 v V1/V1/A2/A1/M3/_0_/A2 (OR2_X2)
+   3.803    0.009    0.047    3.875 v V1/V1/A2/A1/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    3.876 v V1/V1/A2/A1/M4/M2/_0_/A2 (AND2_X1)
+   1.825    0.006    0.031    3.907 v V1/V1/A2/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    3.907 v V1/V1/A2/A1/M4/_0_/A2 (OR2_X2)
+   4.073    0.009    0.047    3.954 v V1/V1/A2/A1/M4/_0_/ZN (OR2_X2)
+            0.009    0.000    3.954 v V1/V1/A2/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.932    0.007    0.031    3.985 v V1/V1/A2/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    3.985 v V1/V1/A2/A2/M1/_0_/A2 (OR2_X2)
+   3.924    0.009    0.047    4.032 v V1/V1/A2/A2/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    4.032 v V1/V1/A2/A2/M2/M2/_1_/B (XOR2_X1)
+   3.649    0.016    0.059    4.091 v V1/V1/A2/A2/M2/M2/_1_/Z (XOR2_X1)
+            0.016    0.000    4.091 v V1/V1/A3/A1/M2/M1/_1_/A (XOR2_X1)
+   3.303    0.014    0.056    4.147 v V1/V1/A3/A1/M2/M1/_1_/Z (XOR2_X1)
+            0.014    0.000    4.147 v V1/V1/A3/A1/M2/M2/_0_/A1 (AND2_X1)
+   1.884    0.006    0.031    4.178 v V1/V1/A3/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.178 v V1/V1/A3/A1/M2/_0_/A2 (OR2_X2)
+   4.003    0.009    0.047    4.225 v V1/V1/A3/A1/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    4.225 v V1/V1/A3/A1/M3/M2/_1_/B (XOR2_X1)
+   3.562    0.014    0.059    4.284 v V1/V1/A3/A1/M3/M2/_1_/Z (XOR2_X1)
+            0.014    0.000    4.284 v V1/A2/A1/A1/M3/M1/_1_/B (XOR2_X1)
+   2.239    0.015    0.058    4.342 v V1/A2/A1/A1/M3/M1/_1_/Z (XOR2_X1)
+            0.015    0.000    4.342 v V1/A2/A1/A1/M3/M2/_0_/A1 (AND2_X1)
+   1.957    0.006    0.032    4.374 v V1/A2/A1/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.374 v V1/A2/A1/A1/M3/_0_/A2 (OR2_X2)
+   4.234    0.009    0.047    4.421 v V1/A2/A1/A1/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    4.421 v V1/A2/A1/A1/M4/M2/_0_/A2 (AND2_X1)
+   1.853    0.006    0.031    4.453 v V1/A2/A1/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.453 v V1/A2/A1/A1/M4/_0_/A2 (OR2_X2)
+   4.091    0.009    0.047    4.500 v V1/A2/A1/A1/M4/_0_/ZN (OR2_X2)
+            0.009    0.000    4.500 v V1/A2/A1/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.873    0.006    0.031    4.531 v V1/A2/A1/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.531 v V1/A2/A1/A2/M1/_0_/A2 (OR2_X2)
+   4.548    0.009    0.047    4.579 v V1/A2/A1/A2/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    4.579 v V1/A2/A1/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.866    0.006    0.031    4.610 v V1/A2/A1/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.610 v V1/A2/A1/A2/M2/_0_/A2 (OR2_X2)
+   4.018    0.009    0.047    4.657 v V1/A2/A1/A2/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    4.657 v V1/A2/A1/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.944    0.006    0.031    4.689 v V1/A2/A1/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    4.689 v V1/A2/A1/A2/M3/_0_/A2 (OR2_X2)
+   4.531    0.009    0.047    4.736 v V1/A2/A1/A2/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    4.736 v V1/A2/A1/A2/M4/M2/_0_/A2 (AND2_X2)
+   3.569    0.006    0.030    4.766 v V1/A2/A1/A2/M4/M2/_0_/ZN (AND2_X2)
+            0.006    0.000    4.766 v V1/A2/A1/A2/M4/_0_/A2 (OR2_X4)
+   7.857    0.009    0.045    4.812 v V1/A2/A1/A2/M4/_0_/ZN (OR2_X4)
+            0.009    0.001    4.813 v V1/A2/A2/A1/M1/M2/_0_/A2 (AND2_X1)
+   1.983    0.007    0.031    4.844 v V1/A2/A2/A1/M1/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    4.844 v V1/A2/A2/A1/M1/_0_/A2 (OR2_X2)
+   5.889    0.010    0.049    4.893 v V1/A2/A2/A1/M1/_0_/ZN (OR2_X2)
+            0.010    0.000    4.893 v V1/A2/A2/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.942    0.007    0.032    4.925 v V1/A2/A2/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    4.925 v V1/A2/A2/A1/M2/_0_/A2 (OR2_X2)
+   5.885    0.010    0.049    4.974 v V1/A2/A2/A1/M2/_0_/ZN (OR2_X2)
+            0.010    0.000    4.974 v V1/A2/A2/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.808    0.006    0.032    5.006 v V1/A2/A2/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.006 v V1/A2/A2/A1/M3/_0_/A2 (OR2_X2)
+   5.848    0.010    0.049    5.055 v V1/A2/A2/A1/M3/_0_/ZN (OR2_X2)
+            0.010    0.000    5.055 v V1/A2/A2/A1/M4/M2/_1_/B (XOR2_X2)
+  12.317    0.020    0.064    5.119 v V1/A2/A2/A1/M4/M2/_1_/Z (XOR2_X2)
+            0.020    0.001    5.121 v V1/A3/A1/A1/M4/M1/_1_/A (XOR2_X2)
+   5.569    0.016    0.058    5.179 v V1/A3/A1/A1/M4/M1/_1_/Z (XOR2_X2)
+            0.016    0.000    5.179 v V1/A3/A1/A1/M4/M2/_0_/A1 (AND2_X1)
+   1.890    0.006    0.032    5.212 v V1/A3/A1/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.212 v V1/A3/A1/A1/M4/_0_/A2 (OR2_X2)
+   6.241    0.010    0.049    5.261 v V1/A3/A1/A1/M4/_0_/ZN (OR2_X2)
+            0.010    0.000    5.261 v V1/A3/A1/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.936    0.006    0.032    5.293 v V1/A3/A1/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.293 v V1/A3/A1/A2/M1/_0_/A2 (OR2_X2)
+   5.836    0.010    0.049    5.342 v V1/A3/A1/A2/M1/_0_/ZN (OR2_X2)
+            0.010    0.000    5.342 v V1/A3/A1/A2/M2/M2/_0_/A2 (AND2_X1)
+   2.040    0.006    0.032    5.374 v V1/A3/A1/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.374 v V1/A3/A1/A2/M2/_0_/A2 (OR2_X2)
+   6.009    0.010    0.049    5.423 v V1/A3/A1/A2/M2/_0_/ZN (OR2_X2)
+            0.010    0.000    5.423 v V1/A3/A1/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.923    0.006    0.032    5.455 v V1/A3/A1/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.455 v V1/A3/A1/A2/M3/_0_/A2 (OR2_X2)
+   5.641    0.010    0.049    5.504 v V1/A3/A1/A2/M3/_0_/ZN (OR2_X2)
+            0.010    0.000    5.504 v V1/A3/A1/A2/M4/M2/_0_/A2 (AND2_X1)
+   1.875    0.006    0.032    5.536 v V1/A3/A1/A2/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.536 v V1/A3/A1/A2/M4/_0_/A2 (OR2_X2)
+   5.959    0.010    0.049    5.585 v V1/A3/A1/A2/M4/_0_/ZN (OR2_X2)
+            0.010    0.000    5.585 v V1/A3/A2/A1/M1/M2/_0_/A2 (AND2_X1)
+   1.797    0.006    0.032    5.617 v V1/A3/A2/A1/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.617 v V1/A3/A2/A1/M1/_0_/A2 (OR2_X2)
+   6.125    0.010    0.049    5.666 v V1/A3/A2/A1/M1/_0_/ZN (OR2_X2)
+            0.010    0.000    5.666 v V1/A3/A2/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.942    0.006    0.032    5.698 v V1/A3/A2/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.698 v V1/A3/A2/A1/M2/_0_/A2 (OR2_X2)
+   3.982    0.009    0.047    5.745 v V1/A3/A2/A1/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    5.745 v V1/A3/A2/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.901    0.006    0.031    5.776 v V1/A3/A2/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.776 v V1/A3/A2/A1/M3/_0_/A2 (OR2_X2)
+   5.998    0.010    0.049    5.825 v V1/A3/A2/A1/M3/_0_/ZN (OR2_X2)
+            0.010    0.000    5.826 v V1/A3/A2/A1/M4/M2/_0_/A2 (AND2_X1)
+   1.810    0.006    0.032    5.857 v V1/A3/A2/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.857 v V1/A3/A2/A1/M4/_0_/A2 (OR2_X2)
+   5.659    0.010    0.049    5.906 v V1/A3/A2/A1/M4/_0_/ZN (OR2_X2)
+            0.010    0.000    5.906 v V1/A3/A2/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.843    0.006    0.032    5.938 v V1/A3/A2/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    5.938 v V1/A3/A2/A2/M1/_0_/A2 (OR2_X2)
+   3.851    0.009    0.047    5.984 v V1/A3/A2/A2/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    5.984 v V1/A3/A2/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.866    0.006    0.031    6.016 v V1/A3/A2/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.016 v V1/A3/A2/A2/M2/_0_/A2 (OR2_X2)
+   3.907    0.009    0.047    6.062 v V1/A3/A2/A2/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    6.063 v V1/A3/A2/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.152    0.006    0.030    6.092 v V1/A3/A2/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.092 v V1/A3/A2/A2/M3/_0_/A2 (OR2_X1)
+   3.652    0.011    0.053    6.145 v V1/A3/A2/A2/M3/_0_/ZN (OR2_X1)
+            0.011    0.000    6.145 v V1/A3/A2/A2/M4/M2/_1_/B (XOR2_X1)
+   4.265    0.015    0.061    6.206 v V1/A3/A2/A2/M4/M2/_1_/Z (XOR2_X1)
+            0.015    0.000    6.206 v A2/A1/A2/A2/M4/M1/_1_/B (XOR2_X1)
+   1.926    0.017    0.058    6.264 v A2/A1/A2/A2/M4/M1/_1_/Z (XOR2_X1)
+            0.017    0.000    6.264 v A2/A1/A2/A2/M4/M2/_0_/A1 (AND2_X1)
+   1.860    0.006    0.033    6.297 v A2/A1/A2/A2/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.297 v A2/A1/A2/A2/M4/_0_/A2 (OR2_X2)
+   4.428    0.009    0.047    6.344 v A2/A1/A2/A2/M4/_0_/ZN (OR2_X2)
+            0.009    0.000    6.344 v A2/A2/A1/A1/M1/M2/_0_/A2 (AND2_X1)
+   1.881    0.006    0.031    6.376 v A2/A2/A1/A1/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.376 v A2/A2/A1/A1/M1/_0_/A2 (OR2_X2)
+   3.857    0.009    0.047    6.422 v A2/A2/A1/A1/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    6.422 v A2/A2/A1/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.963    0.006    0.031    6.454 v A2/A2/A1/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.454 v A2/A2/A1/A1/M2/_0_/A2 (OR2_X2)
+   4.289    0.009    0.047    6.501 v A2/A2/A1/A1/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    6.501 v A2/A2/A1/A1/M3/M2/_0_/A2 (AND2_X1)
+   2.135    0.006    0.032    6.533 v A2/A2/A1/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.533 v A2/A2/A1/A1/M3/_0_/A2 (OR2_X2)
+   4.018    0.009    0.047    6.580 v A2/A2/A1/A1/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    6.580 v A2/A2/A1/A1/M4/M2/_0_/A2 (AND2_X1)
+   1.109    0.005    0.030    6.610 v A2/A2/A1/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    6.610 v A2/A2/A1/A1/M4/_0_/A2 (OR2_X1)
+   3.642    0.011    0.053    6.662 v A2/A2/A1/A1/M4/_0_/ZN (OR2_X1)
+            0.011    0.000    6.662 v A2/A2/A1/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.078    0.005    0.031    6.693 v A2/A2/A1/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    6.693 v A2/A2/A1/A2/M1/_0_/A2 (OR2_X1)
+   3.492    0.011    0.052    6.745 v A2/A2/A1/A2/M1/_0_/ZN (OR2_X1)
+            0.011    0.000    6.745 v A2/A2/A1/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.208    0.006    0.031    6.776 v A2/A2/A1/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.776 v A2/A2/A1/A2/M2/_0_/A2 (OR2_X1)
+   3.795    0.011    0.053    6.829 v A2/A2/A1/A2/M2/_0_/ZN (OR2_X1)
+            0.011    0.000    6.829 v A2/A2/A1/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.675    0.006    0.032    6.861 v A2/A2/A1/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    6.861 v A2/A2/A1/A2/M3/_0_/A2 (OR2_X2)
+   3.801    0.009    0.047    6.908 v A2/A2/A1/A2/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    6.908 v A2/A2/A1/A2/M4/M2/_0_/A2 (AND2_X1)
+   1.987    0.007    0.032    6.939 v A2/A2/A1/A2/M4/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    6.939 v A2/A2/A1/A2/M4/_0_/A2 (OR2_X2)
+   5.879    0.010    0.049    6.988 v A2/A2/A1/A2/M4/_0_/ZN (OR2_X2)
+            0.010    0.000    6.988 v A2/A2/A2/A1/M1/M2/_0_/A2 (AND2_X1)
+   1.801    0.006    0.032    7.020 v A2/A2/A2/A1/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.020 v A2/A2/A2/A1/M1/_0_/A2 (OR2_X2)
+   5.835    0.010    0.049    7.069 v A2/A2/A2/A1/M1/_0_/ZN (OR2_X2)
+            0.010    0.000    7.069 v A2/A2/A2/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.777    0.006    0.032    7.101 v A2/A2/A2/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.101 v A2/A2/A2/A1/M2/_0_/A2 (OR2_X2)
+   5.741    0.010    0.049    7.149 v A2/A2/A2/A1/M2/_0_/ZN (OR2_X2)
+            0.010    0.000    7.150 v A2/A2/A2/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.749    0.006    0.031    7.181 v A2/A2/A2/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.181 v A2/A2/A2/A1/M3/_0_/A2 (OR2_X2)
+   6.023    0.010    0.049    7.230 v A2/A2/A2/A1/M3/_0_/ZN (OR2_X2)
+            0.010    0.000    7.230 v A2/A2/A2/A1/M4/M2/_0_/A2 (AND2_X1)
+   2.331    0.007    0.033    7.263 v A2/A2/A2/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    7.263 v A2/A2/A2/A1/M4/_0_/A2 (OR2_X2)
+   6.106    0.010    0.049    7.312 v A2/A2/A2/A1/M4/_0_/ZN (OR2_X2)
+            0.010    0.000    7.313 v A2/A2/A2/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.808    0.007    0.032    7.344 v A2/A2/A2/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.007    0.000    7.344 v A2/A2/A2/A2/M1/_0_/A2 (OR2_X2)
+   5.749    0.010    0.049    7.393 v A2/A2/A2/A2/M1/_0_/ZN (OR2_X2)
+            0.010    0.000    7.393 v A2/A2/A2/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.824    0.006    0.032    7.425 v A2/A2/A2/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.425 v A2/A2/A2/A2/M2/_0_/A2 (OR2_X2)
+   5.725    0.010    0.049    7.474 v A2/A2/A2/A2/M2/_0_/ZN (OR2_X2)
+            0.010    0.000    7.474 v A2/A2/A2/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.926    0.006    0.032    7.506 v A2/A2/A2/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.506 v A2/A2/A2/A2/M3/_0_/A2 (OR2_X2)
+   5.731    0.010    0.049    7.554 v A2/A2/A2/A2/M3/_0_/ZN (OR2_X2)
+            0.010    0.000    7.554 v A2/A2/A2/A2/M4/M2/_1_/B (XOR2_X2)
+  13.714    0.021    0.065    7.619 v A2/A2/A2/A2/M4/M2/_1_/Z (XOR2_X2)
+            0.021    0.004    7.623 v A3/A1/A2/A2/M4/M1/_1_/A (XOR2_X1)
+   2.677    0.017    0.057    7.680 v A3/A1/A2/A2/M4/M1/_1_/Z (XOR2_X1)
+            0.017    0.000    7.680 v A3/A1/A2/A2/M4/M2/_0_/A1 (AND2_X2)
+   1.759    0.005    0.030    7.710 v A3/A1/A2/A2/M4/M2/_0_/ZN (AND2_X2)
+            0.005    0.000    7.710 v A3/A1/A2/A2/M4/_0_/A2 (OR2_X2)
+   4.537    0.009    0.047    7.757 v A3/A1/A2/A2/M4/_0_/ZN (OR2_X2)
+            0.009    0.000    7.757 v A3/A2/A1/A1/M1/M2/_0_/A2 (AND2_X2)
+   3.469    0.006    0.030    7.787 v A3/A2/A1/A1/M1/M2/_0_/ZN (AND2_X2)
+            0.006    0.000    7.787 v A3/A2/A1/A1/M1/_0_/A2 (OR2_X4)
+  10.773    0.010    0.047    7.833 v A3/A2/A1/A1/M1/_0_/ZN (OR2_X4)
+            0.010    0.002    7.836 v A3/A2/A1/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.007    0.006    0.030    7.865 v A3/A2/A1/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.865 v A3/A2/A1/A1/M2/_0_/A2 (OR2_X1)
+   3.689    0.011    0.053    7.918 v A3/A2/A1/A1/M2/_0_/ZN (OR2_X1)
+            0.011    0.000    7.918 v A3/A2/A1/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.871    0.006    0.032    7.951 v A3/A2/A1/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    7.951 v A3/A2/A1/A1/M3/_0_/A2 (OR2_X2)
+   3.890    0.009    0.047    7.997 v A3/A2/A1/A1/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    7.997 v A3/A2/A1/A1/M4/M2/_0_/A2 (AND2_X1)
+   1.037    0.005    0.029    8.027 v A3/A2/A1/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.027 v A3/A2/A1/A1/M4/_0_/A2 (OR2_X1)
+   3.647    0.011    0.053    8.079 v A3/A2/A1/A1/M4/_0_/ZN (OR2_X1)
+            0.011    0.000    8.080 v A3/A2/A1/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.025    0.005    0.030    8.110 v A3/A2/A1/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.110 v A3/A2/A1/A2/M1/_0_/A2 (OR2_X1)
+   3.754    0.011    0.053    8.163 v A3/A2/A1/A2/M1/_0_/ZN (OR2_X1)
+            0.011    0.000    8.163 v A3/A2/A1/A2/M2/M2/_0_/A2 (AND2_X1)
+   0.979    0.005    0.030    8.193 v A3/A2/A1/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.193 v A3/A2/A1/A2/M2/_0_/A2 (OR2_X1)
+   3.668    0.011    0.053    8.246 v A3/A2/A1/A2/M2/_0_/ZN (OR2_X1)
+            0.011    0.000    8.246 v A3/A2/A1/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.812    0.006    0.032    8.278 v A3/A2/A1/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.278 v A3/A2/A1/A2/M3/_0_/A2 (OR2_X2)
+   5.822    0.010    0.049    8.327 v A3/A2/A1/A2/M3/_0_/ZN (OR2_X2)
+            0.010    0.001    8.327 v A3/A2/A1/A2/M4/M2/_0_/A2 (AND2_X1)
+   1.718    0.006    0.031    8.359 v A3/A2/A1/A2/M4/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.359 v A3/A2/A1/A2/M4/_0_/A2 (OR2_X2)
+   4.008    0.009    0.047    8.406 v A3/A2/A1/A2/M4/_0_/ZN (OR2_X2)
+            0.009    0.000    8.406 v A3/A2/A2/A1/M1/M2/_0_/A2 (AND2_X1)
+   1.014    0.005    0.029    8.435 v A3/A2/A2/A1/M1/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.435 v A3/A2/A2/A1/M1/_0_/A2 (OR2_X1)
+   3.685    0.011    0.053    8.488 v A3/A2/A2/A1/M1/_0_/ZN (OR2_X1)
+            0.011    0.000    8.488 v A3/A2/A2/A1/M2/M2/_0_/A2 (AND2_X1)
+   1.849    0.006    0.032    8.520 v A3/A2/A2/A1/M2/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.520 v A3/A2/A2/A1/M2/_0_/A2 (OR2_X2)
+   3.739    0.009    0.046    8.567 v A3/A2/A2/A1/M2/_0_/ZN (OR2_X2)
+            0.009    0.000    8.567 v A3/A2/A2/A1/M3/M2/_0_/A2 (AND2_X1)
+   1.844    0.006    0.031    8.598 v A3/A2/A2/A1/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.598 v A3/A2/A2/A1/M3/_0_/A2 (OR2_X2)
+   4.112    0.009    0.047    8.645 v A3/A2/A2/A1/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    8.645 v A3/A2/A2/A1/M4/M2/_0_/A2 (AND2_X1)
+   0.993    0.005    0.029    8.674 v A3/A2/A2/A1/M4/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.674 v A3/A2/A2/A1/M4/_0_/A2 (OR2_X1)
+   3.748    0.011    0.053    8.727 v A3/A2/A2/A1/M4/_0_/ZN (OR2_X1)
+            0.011    0.000    8.727 v A3/A2/A2/A2/M1/M2/_0_/A2 (AND2_X1)
+   1.812    0.006    0.032    8.760 v A3/A2/A2/A2/M1/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.760 v A3/A2/A2/A2/M1/_0_/A2 (OR2_X2)
+   3.840    0.009    0.047    8.806 v A3/A2/A2/A2/M1/_0_/ZN (OR2_X2)
+            0.009    0.000    8.806 v A3/A2/A2/A2/M2/M2/_0_/A2 (AND2_X1)
+   1.062    0.005    0.029    8.836 v A3/A2/A2/A2/M2/M2/_0_/ZN (AND2_X1)
+            0.005    0.000    8.836 v A3/A2/A2/A2/M2/_0_/A2 (OR2_X1)
+   3.635    0.011    0.053    8.888 v A3/A2/A2/A2/M2/_0_/ZN (OR2_X1)
+            0.011    0.000    8.888 v A3/A2/A2/A2/M3/M2/_0_/A2 (AND2_X1)
+   1.855    0.006    0.032    8.921 v A3/A2/A2/A2/M3/M2/_0_/ZN (AND2_X1)
+            0.006    0.000    8.921 v A3/A2/A2/A2/M3/_0_/A2 (OR2_X2)
+   3.815    0.009    0.047    8.967 v A3/A2/A2/A2/M3/_0_/ZN (OR2_X2)
+            0.009    0.000    8.967 v A3/A2/A2/A2/M4/M2/_1_/B (XOR2_X1)
+   2.494    0.013    0.057    9.024 v A3/A2/A2/A2/M4/M2/_1_/Z (XOR2_X1)
+            0.013    0.000    9.024 v Prod[63] (out)
+                              9.024   data arrival time
+
+            0.000   10.000   10.000   clock clk (rise edge)
+                     0.000   10.000   clock network delay (ideal)
+                     0.000   10.000   clock reconvergence pessimism
+                    -1.000    9.000   output external delay
+                              9.000   data required time
+---------------------------------------------------------------------------
+                              9.000   data required time
+                             -9.024   data arrival time
+---------------------------------------------------------------------------
+                             -0.024   slack (VIOLATED)
+
+
+worst slack min 3.046
+worst slack max -0.024
+tns max -0.024
+max capacitance
+
+Pin                                     Limit      Cap    Slack
+---------------------------------------------------------------
+fanout51/Z                             60.654   62.252   -1.598 (VIOLATED)
+
+Clock clk
+No launch/capture paths found.
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          5.37e-02   4.09e-02   2.65e-04   9.48e-02 100.0%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  5.37e-02   4.09e-02   2.65e-04   9.48e-02 100.0%
+                          56.6%      43.1%       0.3%
+Design area 12079 um^2 12% utilization.

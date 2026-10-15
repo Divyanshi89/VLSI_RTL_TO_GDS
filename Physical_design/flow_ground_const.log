@@ -1,0 +1,324 @@
+[INFO ODB-0227] LEF file: Nangate45/Nangate45_tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: Nangate45/Nangate45_stdcell.lef, created 135 library cells
+[WARNING IFP-0028] Core area lower left (15.000, 20.000) snapped to (15.010, 21.000).
+[INFO IFP-0001] Added 227 rows of 1657 site FreePDK45_38x28_10R_NP_162NW_34O.
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 360.000 380.000 ) um
+[INFO IFP-0101] Core BBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO IFP-0102] Core area:                       100052.974 um^2
+[INFO IFP-0103] Total instances area:             11734.856 um^2
+[INFO IFP-0104] Effective utilization:                0.117
+[INFO IFP-0105] Number of instances:                   9333
+[INFO RSZ-0026] Removed 0 buffers.
+Found 0 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0001] Number of available slots 4582
+[INFO PPL-0002] Number of I/O             130
+[INFO PPL-0003] Number of I/O w/sink      129
+[INFO PPL-0004] Number of I/O w/o sink    1
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 24384.89 um.
+[INFO TAP-0004] Inserted 454 endcaps.
+[INFO TAP-0005] Inserted 229 tapcells.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING ORD-0046] -defer_connection has been deprecated.
+[WARNING PDN-1051] No instances found for grid (CORE_macro_grid_1).
+[WARNING PDN-1051] No instances found for grid (CORE_macro_grid_2).
+[INFO PDN-0001] Inserting grid: grid
+[INFO PDN-0500] Runtime: 0.06s
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.190  1.400 ) um
+[INFO GPL-0004] CoreBBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO GPL-0016] Core area:                  100052.974 um^2
+[INFO GPL-0036] Movable instances area:      21665.168 um^2
+[INFO GPL-0037] Total instances area:        21846.846 um^2
+[INFO GPL-0035] Pin density area adjust:       262.109 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:             10016
+[INFO GPL-0007] Movable instances:                9333
+[INFO GPL-0008] Fixed instances:                   683
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                   9398
+[INFO GPL-0011] Number of pins:                  26829
+[INFO GPL-0012] Die BBox:       (  0.000  0.000 ) ( 360.000 380.000 ) um
+[INFO GPL-0013] Placement BBox: ( 15.010 21.000 ) ( 329.840 338.800 ) um
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                100052.974 um^2
+[INFO GPL-0017] Fixed instances area:          181.678 um^2
+[INFO GPL-0018] Movable instances area:      21927.277 um^2
+[INFO GPL-0019] Utilization:                    21.956 %
+[INFO GPL-0020] Standard cells area:         21927.277 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 9333	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.73312241 HPWL: 186585690
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00023444 HPWL: 56981452
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00023444 HPWL: 56830395
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00023444 HPWL: 56731682
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00023444 HPWL: 56666249
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00023444 HPWL: 56632660
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00023444 HPWL: 56614297
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00023444 HPWL: 56610936
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00023444 HPWL: 56591471
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00023444 HPWL: 56602894
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00023444 HPWL: 56591661
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00023444 HPWL: 56595642
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00023444 HPWL: 56594728
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00023444 HPWL: 56594561
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00023444 HPWL: 56589183
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00023444 HPWL: 56596210
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00023444 HPWL: 56589447
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00023444 HPWL: 56593021
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00023444 HPWL: 56593447
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00023444 HPWL: 56595108
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:      2.349 um^2
+[INFO GPL-0025] Ideal bin area:                  7.831 um^2
+[INFO GPL-0026] Ideal bin count:                 12775
+[INFO GPL-0027] Total bin area:             100052.974 um^2
+[INFO GPL-0028] Bin count (X, Y):          64 ,     64
+[INFO GPL-0029] Bin size (W * H):       4.919 *  4.966 um
+[INFO GPL-0030] Number of bins:                   4096
+[INFO GPL-0084] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9978 |  1.130881e+04 |   +0.00% |  1.06e-16 |      
+       10 |   0.9963 |  9.794166e+03 |  -13.39% |  1.72e-16 |      
+       20 |   0.9962 |  9.677667e+03 |   -1.19% |  2.81e-16 |      
+       30 |   0.9962 |  9.696432e+03 |   +0.19% |  4.57e-16 |      
+       40 |   0.9962 |  9.715663e+03 |   +0.20% |  7.44e-16 |      
+       50 |   0.9962 |  9.718586e+03 |   +0.03% |  1.21e-15 |      
+       60 |   0.9962 |  9.707599e+03 |   -0.11% |  1.98e-15 |      
+       70 |   0.9962 |  9.695826e+03 |   -0.12% |  3.22e-15 |      
+       80 |   0.9962 |  9.686576e+03 |   -0.10% |  5.24e-15 |      
+       90 |   0.9962 |  9.672208e+03 |   -0.15% |  8.54e-15 |      
+      100 |   0.9962 |  9.647876e+03 |   -0.25% |  1.39e-14 |      
+      110 |   0.9962 |  9.607315e+03 |   -0.42% |  2.27e-14 |      
+      120 |   0.9962 |  9.549225e+03 |   -0.60% |  3.69e-14 |      
+      130 |   0.9962 |  9.475772e+03 |   -0.77% |  6.01e-14 |      
+      140 |   0.9962 |  9.466852e+03 |   -0.09% |  9.79e-14 |      
+      150 |   0.9956 |  9.662047e+03 |   +2.06% |  1.59e-13 |      
+      160 |   0.9949 |  1.026506e+04 |   +6.24% |  2.60e-13 |      
+      170 |   0.9934 |  1.175220e+04 |  +14.49% |  4.23e-13 |      
+      180 |   0.9893 |  1.516686e+04 |  +29.06% |  6.88e-13 |      
+      190 |   0.9819 |  2.044569e+04 |  +34.81% |  1.12e-12 |      
+      200 |   0.9706 |  2.607380e+04 |  +27.53% |  1.82e-12 |      
+      210 |   0.9560 |  3.138534e+04 |  +20.37% |  2.96e-12 |      
+      220 |   0.9409 |  3.678691e+04 |  +17.21% |  4.82e-12 |      
+      230 |   0.9200 |  4.303491e+04 |  +16.98% |  7.85e-12 |      
+      240 |   0.8911 |  5.045623e+04 |  +17.24% |  1.28e-11 |      
+      250 |   0.8549 |  5.812417e+04 |  +15.20% |  2.08e-11 |      
+      260 |   0.8150 |  6.453323e+04 |  +11.03% |  3.38e-11 |      
+      270 |   0.7760 |  6.964483e+04 |   +7.92% |  5.49e-11 |      
+      280 |   0.7307 |  7.501667e+04 |   +7.71% |  8.93e-11 |      
+      290 |   0.6886 |  7.927252e+04 |   +5.67% |  1.45e-10 |      
+      300 |   0.6408 |  8.005232e+04 |   +0.98% |  2.37e-10 |      
+[INFO GPL-0038] Routability snapshot saved at iter = 309
+      308 |   0.5958 |  8.082056e+04 |          |           |      
+      310 |   0.5823 |  8.161120e+04 |   +1.95% |  3.86e-10 |      
+      320 |   0.5210 |  8.626476e+04 |   +5.70% |  6.27e-10 |      
+      330 |   0.4793 |  8.844030e+04 |   +2.52% |  1.02e-09 |      
+      340 |   0.4279 |  9.119871e+04 |   +3.12% |  1.66e-09 |      
+      350 |   0.4032 |  8.718432e+04 |   -4.40% |  2.71e-09 |      
+      360 |   0.3805 |  8.661728e+04 |   -0.65% |  4.41e-09 |      
+      370 |   0.3410 |  8.626592e+04 |   -0.41% |  7.11e-09 |      
+      380 |   0.3106 |  8.603052e+04 |   -0.27% |  1.05e-08 |      
+[INFO GPL-0040] Routability iteration: 1
+[WARNING GRT-0281] Net zero_ has a large fanout of 1300 terminals.
+[INFO GPL-0088] Tiles the placer can act on: 4150 of 16758 (24.76%)
+[INFO GPL-0041] Total routing overflow: 0.0000
+[INFO GPL-0042] Number of overflowed tiles: 0 (0.00%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 0.4341
+[INFO GPL-0044] Average top 1.0% routing congestion: 0.4045
+[INFO GPL-0045] Average top 2.0% routing congestion: 0.3703
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.3268
+[INFO GPL-0047] Routability iteration weighted routing congestion: 0.4193
+[INFO GPL-0050] Weighted routing congestion is lower than target routing congestion(1.0100), end routability optimization.
+[INFO GPL-0090] Routability finished. Target routing congestion achieved succesfully.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      390 |   0.2862 |  8.470737e+04 |   -1.54% |  1.54e-08 |      
+      400 |   0.2617 |  8.387554e+04 |   -0.98% |  2.27e-08 |      
+      410 |   0.2361 |  8.371667e+04 |   -0.19% |  3.35e-08 |      
+      420 |   0.2075 |  8.317209e+04 |   -0.65% |  4.93e-08 |      
+      430 |   0.1849 |  8.297611e+04 |   -0.24% |  7.27e-08 |      
+      440 |   0.1655 |  8.286310e+04 |   -0.14% |  1.07e-07 |      
+      450 |   0.1459 |  8.285462e+04 |   -0.01% |  1.58e-07 |      
+      460 |   0.1281 |  8.290785e+04 |   +0.06% |  2.32e-07 |      
+      470 |   0.1119 |  8.298496e+04 |   +0.09% |  3.42e-07 |      
+      476 |   0.0995 |  8.296861e+04 |          |  4.49e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 476
+[INFO GPL-1017] Routability mode iteration count: 77
+[INFO GPL-1005] Routability final weighted congestion: 0.3813
+[INFO GPL-1002] Placed Cell Area            21927.2774
+[INFO GPL-1003] Available Free Area         99871.2960
+[INFO GPL-1004] Minimum Feasible Density        0.2200 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.2440
+[INFO GPL-1008]     - For 80% usage of free space: 0.2744
+[INFO GPL-1009]     - For 50% usage of free space: 0.4391
+[INFO GPL-1011] Original area (um^2): 21927.28
+[INFO GPL-1012] Total routability artificial inflation: 0.00 (+0.00%)
+[INFO GPL-1014] Final placement area: 21927.28 (+0.00%)
+[INFO GPL-1018] Final HPWL (um): 83099.05
+Found 0 macro blocks.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0001] Number of available slots 4582
+[INFO PPL-0002] Number of I/O             130
+[INFO PPL-0003] Number of I/O w/sink      129
+[INFO PPL-0004] Number of I/O w/o sink    1
+[INFO PPL-0005] Slots per section         200
+[INFO PPL-0008] Successfully assigned pins to sections.
+[INFO PPL-0012] I/O nets HPWL: 31464.33 um.
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |      9398
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0504] Runtime: 0.80s
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11734.86 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 11.9%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10016 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |       1272 |       802 |       470
+        1 |          4 |         2 |         2
+        2 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 2.
+[INFO DPL-0500] Runtime: 0.22s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                9804
+total displacement      11471.4 u
+average displacement        1.1 u
+max displacement            4.6 u
+original HPWL           81310.6 u
+legalized HPWL          86365.1 u
+delta HPWL                    6 %
+
+worst slack min 3.038
+worst slack max -0.271
+tns max -0.582
+[INFO CTS-0050] Root buffer is BUF_X4.
+[INFO CTS-0051] Sink buffer is BUF_X4.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    BUF_X4
+[INFO CTS-0049] Characterization buffer is BUF_X4.
+[WARNING CTS-0083] No clock nets have been found.
+[INFO CTS-0008] TritonCTS found 0 clock nets.
+[WARNING CTS-0082] No valid clock nets in the design.
+[INFO CTS-0500] Runtime: 0.14s
+[INFO RSZ-0058] Using max wire length 693um.
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11734.86 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 11.9%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10016 cells
+[INFO DPL-0500] Runtime: 0.09s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                   0
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           86365.1 u
+legalized HPWL          86365.1 u
+delta HPWL                    0 %
+
+[WARNING STA-0450] virtual clock clk can not be propagated.
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove SplitLoadMove 
+[INFO RSZ-0094] Found 4 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 4 out of 4 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |    TNS     |  Viol  |  Worst
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            | Endpts | Endpoint
+------------------------------------------------------------------------------------------------------------------------------
+       0* |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.278 |       -0.6 |      4 | Prod[63]
+     183* |       0 |     123 |       23 |      0 |    33 |    +0.6% |    0.001 |        0.0 |      4 | Prod[63]
+    final |       0 |     123 |       23 |      0 |    33 |    +0.6% |    0.001 |        0.0 |      0 | Prod[63]
+------------------------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0040] Inserted 23 buffers.
+[INFO RSZ-0051] Resized 123 instances: 123 up, 0 up match, 0 down, 0 VT
+[INFO RSZ-0043] Swapped pins on 33 instances.
+[INFO RSZ-0505] Runtime: 3.97s
+[INFO RSZ-0033] No hold violations found.
+[INFO RSZ-0506] Runtime: 0.01s
+worst slack min 3.039
+worst slack max 0.001
+tns max 0.000
+[INFO DPL-0006] Core area: 100052.97 um^2
+[INFO DPL-0007] Movable instances area: 11808.80 um^2
+[INFO DPL-0008] Fixed instances area within core: 181.68 um^2
+[INFO DPL-0009] Utilization: 12.0%
+[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+[INFO DPL-1102] Legalizing using negotiation legalizer.
+[INFO DPL-1103] Negotiation base search window: +/-20 sites horizontally, +/-5 rows vertically 
+	Automatic search window extension enabled.
+	Search window extendable up to the max displacement cap of +/-500 sites, +/-100 rows near walls.
+[INFO DPL-1104] NegotiationLegalizer DRC penalty: 5.
+[INFO DPL-0392] Negotiation cell height distribution (1 unique row-count(s)):
+[INFO DPL-0393]   height 1 row(s): 10039 cells
+          |      Total |  Illegal |  Illegal
+Iteration | Violations |    Cells |    Sites
+---------------------------------------------
+        0 |         11 |        11 |         0
+        1 |          0 |         0 |         0
+Negotiation phase 1 converged at iteration 1.
+[INFO DPL-0500] Runtime: 0.12s
+Detailed Placement Analysis
+---------------------------------
+legalizer            negotiation
+total moves                 514
+total displacement         45.3 u
+average displacement        0.0 u
+max displacement            2.8 u
+original HPWL           86373.2 u
+legalized HPWL          86392.9 u
+delta HPWL                    0 %
+
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     21
+Number of macros:     135
+Number of vias:       33
+Number of viarulegen: 19
+
+[INFO DRT-0150] Reading design.
+[ERROR DRT-0305] Net zero_ of signal type GROUND is not routable by TritonRoute. Move to special nets.
+DRT-0305
+    while executing
+"drt::pin_access_cmd $db_process_node  $via_access_layer $verbose $min_access_points  $via_in_pin_bottom_layer $via_in_pin_top_layer"
+    (procedure "pin_access" line 65)
+    invoked from within
+"pin_access"
+    (file "flow.tcl" line 200)
+    invoked from within
+"source "flow.tcl""
+    (file "gcd_nangate45_vedic32.tcl" line 21)

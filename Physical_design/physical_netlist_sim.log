@@ -1,0 +1,13 @@
+VCD info: dumpfile physical_vedic32x32.vcd opened for output.
+t=0 A=00000000 B=00000000 Prod=0000000000000000 overflow=0
+t=20000 A=00000444 B=00000444 Prod=0000000000123210 overflow=0
+t=70000 A=00004445 B=00004445 Prod=000000001234ba99 overflow=0
+t=120000 A=00001136 B=00001136 Prod=0000000001283764 overflow=0
+t=170000 A=00003202 B=00003202 Prod=0000000009c4c804 overflow=0
+t=220000 A=00000009 B=00000009 Prod=0000000000000051 overflow=0
+t=270000 A=ffffffff B=00000001 Prod=00000000ffffffff overflow=0
+t=320000 A=aaaaaaaa B=55555555 Prod=38e38e3871c71c72 overflow=0
+t=370000 A=12345678 B=9abcdef0 Prod=0b00ea4e242d2080 overflow=0
+t=420000 A=00000000 B=ffffffff Prod=0000000000000000 overflow=0
+t=470000 A=ffffffff B=ffffffff Prod=fffffffe00000001 overflow=0
+../Power_Analysis/physical_power_tb.v:34: $finish called at 520000 (1ps)
