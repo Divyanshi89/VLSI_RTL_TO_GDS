@@ -1,0 +1,11 @@
+PPA REPORT: 32-bit Vedic Multiplier
+Top module: vedic32x32
+Values: MOCK / ILLUSTRATIVE
+------------------------------------------------------------
+Metric                      Value        Limit     Result
+Area (library units)    11734.856    13000.000       PASS
+Delay (ns)                  2.100        2.500       PASS
+Power (mW)                 94.800      120.000       PASS
+------------------------------------------------------------
+Overall: PASS
+WARNING: Replace mock values with actual measured results.

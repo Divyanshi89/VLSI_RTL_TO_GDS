@@ -1,0 +1,19 @@
+DESIGN SUMMARY
+Input: netlist_vedic32.v
+Module detected: vedic32x32
+Cell instances counted (heuristic): 53
+Unique cell types:
+  AND2_X1
+  FA
+  HA
+  OR2_X1
+  RCA16
+  RCA32
+  RCA4
+  RCA8
+  XOR2_X1
+  vedic16x16
+  vedic2x2
+  vedic4x4
+  vedic8x8
+Note: compare the heuristic count with Yosys stat for authoritative synthesis statistics.

@@ -1,0 +1,9 @@
+TCL FOR EDA TOOLS LAB - 32-bit Vedic Multiplier
+Top module: vedic32x32
+Synthesis succeeded: 1
+Reports generated when inputs/tools were available:
+  vedic_synthesis_report.txt
+  vedic_cell_list_report.txt
+  vedic_ppa_report.txt
+  vedic_design_summary_report.txt
+PPA values are mock unless changed in the configuration section.

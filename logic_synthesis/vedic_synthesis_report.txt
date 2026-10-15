@@ -1,0 +1,79 @@
+SYNTHESIS REPORT: 32-bit Vedic Multiplier
+Top module: vedic32x32
+Library: NangateOCL.lib
+Success: 1
+Netlist: netlist_vedic32.v
+Log: vedic_synthesis.log
+
+Selected synthesis log lines:
+18.1.2. Re-integrating ABC results.
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+18.2.2. Re-integrating ABC results.
+ABC RESULTS:           AND2_X1 cells:        1
+ABC RESULTS:           XOR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+18.7.2. Re-integrating ABC results.
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+18.8.2. Re-integrating ABC results.
+ABC RESULTS:           AND2_X1 cells:        4
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        4
+18.9.2. Re-integrating ABC results.
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+18.10.2. Re-integrating ABC results.
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+18.11.2. Re-integrating ABC results.
+ABC RESULTS:            OR2_X1 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        1
+   Number of cells:                  3
+   Area for cell type \HA is unknown!
+   Chip area for module '\FA': 1.064000
+   Number of cells:                  2
+   Chip area for module '\HA': 2.660000
+   Number of cells:                  2
+   Area for cell type \RCA8 is unknown!
+   Number of cells:                  2
+   Area for cell type \RCA16 is unknown!
+   Number of cells:                  4
+   Area for cell type \FA is unknown!
+   Number of cells:                  2
+   Area for cell type \RCA4 is unknown!
+   Number of cells:                  8
+   Area for cell type \RCA16 is unknown!
+   Area for cell type \vedic8x8 is unknown!
+   Chip area for module '\vedic16x16': 1.064000
+   Number of cells:                  6
+   Area for cell type \HA is unknown!
+   Chip area for module '\vedic2x2': 4.256000
+   Number of cells:                  8
+   Area for cell type \RCA32 is unknown!
+   Area for cell type \vedic16x16 is unknown!
+   Chip area for module '\vedic32x32': 1.064000
+   Number of cells:                  8
+   Area for cell type \RCA4 is unknown!
+   Area for cell type \vedic2x2 is unknown!
+   Chip area for module '\vedic4x4': 1.064000
+   Number of cells:                  8
+   Area for cell type \RCA8 is unknown!
+   Area for cell type \vedic4x4 is unknown!
+   Chip area for module '\vedic8x8': 1.064000
+   Number of cells:               9333
+   Chip area for top module '\vedic32x32': 11734.856000
+Warnings: 8 unique messages, 72 total
